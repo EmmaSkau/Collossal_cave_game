@@ -1,0 +1,82 @@
+/* ----- VARIABLES ----- */
+/* ----- MIXINS ----- */
+/* ----- OTHER ----- */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body { /* Baggrunds billed */
+  background-image: url(../img/tobias-tullius-RhjVGxILcqE-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 35px;
+}
+
+p {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+span {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  font-size: 20px;
+}
+
+/* Hoved container med teksten */
+.box {
+  padding: 10px 20px;
+  margin: auto;
+  width: 80%;
+  background-color: #008000;
+  opacity: 70%;
+  margin-top: 1.5em;
+  min-height: 65vh;
+}
+
+/* Input textfeltet */
+.textBox {
+  background-color: darkgreen;
+  margin: auto;
+  width: 80%;
+  height: 3em;
+  padding: 10px 20px;
+}
+
+footer {
+  padding: 10px 20px;
+  background-color: black;
+  height: 4em;
+  margin-top: 5em;
+  position: absolute;
+  width: 100%;
+}
+
+.pF {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+}
+
+/* Blinkende firkant */
+.fa-square {
+  color: white;
+}
+
+.blink {
+  opacity: 0;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,89 @@
+/* ----- VARIABLES ----- */
+$fontSize: 20px;
+$padding: 10px 20px;
+$width: 80%;
+$bgColor: #008000;
+
+
+/* ----- MIXINS ----- */
+@mixin overOrdnet (){
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+
+/* ----- OTHER ----- */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{ /* Baggrunds billed */
+    background-image: url(../img/tobias-tullius-RhjVGxILcqE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+h1{
+    @include overOrdnet;
+    padding: $padding;
+    font-size: 35px;
+}
+
+p{
+    @include overOrdnet;
+    font-size: $fontSize;
+    padding: $padding;
+}
+
+span{
+    @include overOrdnet;
+    font-size: $fontSize;
+}
+
+/* Hoved container med teksten */
+.box{
+    padding: $padding;
+    margin: auto;
+    width: $width;
+    background-color: $bgColor;
+    opacity: 70%;
+    margin-top: 1.5em;
+    min-height: 65vh;
+}
+
+/* Input textfeltet */
+.textBox{
+    background-color: darkgreen;
+    margin: auto;
+    width: $width;
+    height: 3em;
+    padding: $padding;
+}
+
+footer{
+    padding: $padding;
+    background-color: black;
+    height: 4em;
+    margin-top: 5em;
+    position: absolute;
+    width: 100%;
+}
+
+.pF{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+/* Blinkende firkant */
+.fa-square{
+    color:white;
+}
+
+.blink{
+    opacity: 0;
+}
